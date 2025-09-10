@@ -1,0 +1,40 @@
+columns:
+  - id: int
+  - Gender: category
+  - Age: int
+  - Driving_License: int
+  - Region_Code: float
+  - Previously_Insured: int
+  - Vehicle_Age: category
+  - Vehicle_Damage: category
+  - Annual_Premium: float
+  - Policy_Sales_Channel: float
+  - Vintage: int
+  - Response: int
+
+
+numerical_columns:
+  - Age
+  - Driving_License
+  - Region_Code
+  - Previously_Insured
+  - Annual_Premium
+  - Policy_Sales_Channel
+  - Vintage
+  - Response
+
+categorical_columns:
+  - Gender
+  - Vehicle_Age
+  - Vehicle_Damage
+
+drop_columns: _id
+
+# for data transformation
+num_features:
+  - Age
+  - Vintage
+
+
+mm_columns:
+  - Annual_Premium
