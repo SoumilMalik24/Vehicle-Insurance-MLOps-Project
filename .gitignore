@@ -1,6 +1,7 @@
 credentials.txt
 notebook/data.csv
 rf_model.pkl
+artifact
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
