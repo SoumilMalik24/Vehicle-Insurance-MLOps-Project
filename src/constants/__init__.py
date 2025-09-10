@@ -13,7 +13,7 @@ MODEL_FILE_NAME = "model.pkl"
 
 TARGET_COLUMN = "Response"
 CURRENT_YEAR = date.today().year
-PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 
 FILE_NAME: str = "data.csv"
 TRAIN_FILE_NAME: str = "train.csv"
